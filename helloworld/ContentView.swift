@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var count = 0
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("\(count) tapped!")
+                .font(.largeTitle)
+                .padding(.bottom)
+            Button(action: {
+                self.count += 1
+            }) {
+                Text("Button")
+                    .font(.largeTitle)
+                    .foregroundColor(Color.white)
+            }
+            .padding(.all)
+            .background(Color.blue)
+        }
     }
 }
 
