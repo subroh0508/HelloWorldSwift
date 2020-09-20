@@ -13,6 +13,8 @@
 		C888DCDB2516F49B00023463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888DCDA2516F49B00023463 /* Preview Assets.xcassets */; };
 		C888DCE62516F49B00023463 /* helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888DCE52516F49B00023463 /* helloworldTests.swift */; };
 		C888DCF12516F49B00023463 /* helloworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888DCF02516F49B00023463 /* helloworldUITests.swift */; };
+		C888DD02251700ED00023463 /* IdolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888DD01251700ED00023463 /* IdolModel.swift */; };
+		C888DD072517017B00023463 /* IdolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888DD062517017B00023463 /* IdolListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C888DCEC2516F49B00023463 /* helloworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C888DCF02516F49B00023463 /* helloworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldUITests.swift; sourceTree = "<group>"; };
 		C888DCF22516F49B00023463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C888DD01251700ED00023463 /* IdolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolModel.swift; sourceTree = "<group>"; };
+		C888DD062517017B00023463 /* IdolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				C888DCD72516F49B00023463 /* Assets.xcassets */,
 				C888DCDC2516F49B00023463 /* Info.plist */,
 				C888DCD92516F49B00023463 /* Preview Content */,
+				C888DD01251700ED00023463 /* IdolModel.swift */,
+				C888DD062517017B00023463 /* IdolListViewModel.swift */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				C888DCD62516F49A00023463 /* ContentView.swift in Sources */,
 				C888DCD42516F49A00023463 /* helloworldApp.swift in Sources */,
+				C888DD072517017B00023463 /* IdolListViewModel.swift in Sources */,
+				C888DD02251700ED00023463 /* IdolModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				DEVELOPMENT_TEAM = S326785X73;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				DEVELOPMENT_TEAM = S326785X73;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
